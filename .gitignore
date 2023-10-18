@@ -38,3 +38,7 @@ web/web.config
 # Docker.
 .env
 docker-compose.override.yaml
+
+/bin/
+/libraries/
+/web/profiles/contrib/

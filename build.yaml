@@ -38,6 +38,12 @@ dockerfile:
         install:
           - bcmath
 
+git:
+  ignore:
+    - /bin/
+    - /libraries/
+    - /web/profiles/contrib/
+
 experimental:
   createGitHubActionsConfiguration: true
   runGitHooksBeforePush: true
