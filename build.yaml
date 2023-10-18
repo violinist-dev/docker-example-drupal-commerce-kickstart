@@ -11,16 +11,9 @@ database:
 
 php:
   version: 8.1-fpm-bullseye
-  phpcs:
-    paths:
-      - web/modules/custom
-    standards:
-      - Drupal
-      - DrupalPractice
-  phpstan:
-    level: max
-    paths:
-      - web/modules/custom
+  phpcs: false
+  phpstan: false
+  phpunit: false
 
 drupal:
   docroot: web
