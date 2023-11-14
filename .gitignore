@@ -39,6 +39,7 @@ web/web.config
 .env
 docker-compose.override.yaml
 
+
 /bin/
 /libraries/
 /web/profiles/contrib/
