@@ -1,0 +1,15 @@
+uuid: ce4d31a5-1320-42ab-9f74-648150e181f7
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 0xbDIgBpIMF9UAcKw6hqyiyTYw4B1jnK3aH7RBnodEQ
+id: physical
+label: Physical
+description: ''
+variationType: physical
+variationTypes: {  }
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

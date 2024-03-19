@@ -1,0 +1,11 @@
+uuid: 7a82ed9b-dd66-4d52-ba32-f7bf596647fc
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hwloYEaXA4AmT7mRrKpZM66o5HejYLZq_tKNzgGxsRk
+currencyCode: JPY
+name: 'Japanese Yen'
+numericCode: '392'
+symbol: ¥
+fractionDigits: 0

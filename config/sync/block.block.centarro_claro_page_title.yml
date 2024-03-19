@@ -1,0 +1,20 @@
+uuid: 7db8a456-75d8-4051-9086-b755744628e0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - centarro_claro
+_core:
+  default_config_hash: nNJHJo53pZhNP1t4XvVEXr2WyVJQDUI6VDsEQvOgGN8
+id: centarro_claro_page_title
+theme: centarro_claro
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,11 @@
+uuid: 7b634cab-5403-4b69-8176-1e2dfe0c5283
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SMYu3NtJxyD2XjkPZ2dgzPZgmtD-5Gw-ClKNvaZxbv8
+currencyCode: GBP
+name: 'British Pound'
+numericCode: '826'
+symbol: £
+fractionDigits: 2
