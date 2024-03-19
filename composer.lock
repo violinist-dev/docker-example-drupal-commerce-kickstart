@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60ff6306126850ee3c7ad45601a5a87a",
+    "content-hash": "6cbbe1ddf19b67a7edde27d7545f3df6",
     "packages": [
         {
             "name": "apimatic/jsonmapper",
@@ -2842,6 +2842,28 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/commerce"
             }
+        },
+        {
+            "name": "drupal/commerce_demo",
+            "version": "3.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/commerce_demo.git",
+                "reference": "ae12b48e897b3a72b8fdd26d7523d975e6a2a282"
+            },
+            "require": {
+                "centarro/commerce_kickstart": "^3.0",
+                "drupal/default_content": "^2.0@alpha",
+                "drupal/search_api": "^1.20"
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Demo module for the Commerce module.",
+            "homepage": "http://drupal.org/project/commerce_demo",
+            "time": "2023-06-05T14:54:31+00:00"
         },
         {
             "name": "drupal/commerce_email",
@@ -16306,7 +16328,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/commerce_demo": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
@@ -16314,5 +16338,5 @@
         "ext-curl": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
