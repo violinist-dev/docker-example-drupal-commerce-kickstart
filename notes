@@ -1,0 +1,5 @@
+cp .env.example .env
+docker compose up -d
+./run install --db-url=mysql://app:app@database/app
+./run drush pm:enable -y commerce_demo
+Go to http://docker-example-drupal-commerce-kickstart.localhost
